@@ -1,0 +1,20 @@
+<?php
+
+class User
+{
+    public $name ;
+    public $password ;
+    public $email ;
+    public $city ;
+
+
+class DestrctableClass{
+    function __construct()
+        {
+        print "Конструктор". $this->name;
+
+        }
+    
+    }
+}
+$obj = new DestrctableClass();
